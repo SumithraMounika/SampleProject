@@ -6,8 +6,9 @@ import java.util.*; // contains Collections framework
 class Main {
 	public static void main (String[] args) {
                       // Your code here
-        Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
+        Scanner sc = new Scanner(System.in)
+       //updated N to num variable
+        int Num  = sc.nextInt();
         int[] arr = new int[N];
         for(int i=0;i<N;i++){
             arr[i] = sc.nextInt();
